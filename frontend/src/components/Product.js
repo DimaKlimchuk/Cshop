@@ -16,7 +16,9 @@ function Product(props) {
         <p>
           <strong>${product.price}</strong>
         </p>
-        <button>Add to card</button>
+        <div className="product-btn-container">
+          <button className="btn-primary">Add to card</button>
+        </div>
       </div>
     </div>
   );
